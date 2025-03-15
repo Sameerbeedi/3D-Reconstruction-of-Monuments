@@ -1,0 +1,7 @@
+pip install bs4 
+pip install requests
+pip install sentence_transformers
+pip install numpy
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install  langchain-groq
+pip install langchain langchain-community chromadb groq tiktoken
