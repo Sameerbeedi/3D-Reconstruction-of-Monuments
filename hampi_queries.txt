@@ -1,0 +1,16 @@
+Prompt: describe hampi
+Result: Hampi is an ancient city located in the state of Karnataka, India. It is situated on the banks of the Tungabhadra River and is a UNESCO World Heritage Site. Hampi was the capital of the Vijayanagara Empire, one of the most powerful and influential kingdoms in Indian history, from the 14th to the 16th century.
+
+The city is known for its stunning architecture, which is a blend of Hindu, Islamic, and European styles. The city is home to many monuments, temples, and ruins, including the famous Vitthala Temple, the Queen's Bath, and the Elephant Stables.
+
+Hampi is considered one of the most sacred places in Hinduism, and is believed to be the site of the mythical city of Kishkindha, the kingdom of the monkey god Hanuman. The city is also said to be the place where the legendary king and warrior, Krishnadevaraya, was born and died.
+
+Today, Hampi is a popular tourist destination, attracting visitors from all over the world who come to marvel at its ancient beauty and rich history.
+==================================================
+Prompt: stone chariot hampi
+Result: The Stone Chariot is a famous tourist attraction located in the ancient city of Hampi, Karnataka, India. It is a monolithic structure carved out of a single piece of chlorite-schist stone, measuring 4.5 meters (14.7 ft) in length and 2.5 meters (8.2 ft) in width.
+
+The Chariot is believed to have been built during the Vijayanagara Empire (14th-16th century CE) and is considered one of the most impressive architectural achievements of the era. It is thought to have been used as a royal throne or a symbol of the emperor's power and strength.
+
+The Chariot is located near the Vitthala Temple complex in Hampi, which is a UNESCO World Heritage Site. It is considered one of the most iconic and culturally significant monuments in Hampi, and is often featured on the covers of tourism brochures and guidebooks.
+==================================================
