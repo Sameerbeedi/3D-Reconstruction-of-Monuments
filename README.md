@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 3D-Reconstruction-of-Monuments
 =======
 # 🏛️ 3D Reconstruction of Lost Hampi Monuments  
@@ -30,4 +29,3 @@ The generated 2D images are transformed into **3D point cloud data**, bringing t
 > ✨ **Bridging history and technology to revive the wonders of the past.**  
 Stay tuned for updates on functionality and working demos!
 
->>>>>>> 72cf6a72e3ed79301e944bbb0dabb3ac7550513a
