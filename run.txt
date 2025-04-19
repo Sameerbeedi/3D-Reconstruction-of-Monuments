@@ -1,0 +1,20 @@
+how to run ts shit:
+
+python3 /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode generate_qa --num_questions 15 --qa_topic "Pillars" --output_dir hampi_output
+
+
+# Generate 15 Q&A pairs about Hampi pillars and save to hampi_output/
+python /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode generate_qa --num_questions 15 --qa_topic "Pillars" --output_dir hampi_output
+
+# Search the generated Q&A database
+python /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode search_qa --query "musical pillars" --arch_qa_db ./chroma_architecture_qa_db
+
+# Generate 2 images for each Q&A pair in hampi_output/Hampi_Architecture_QA.txt, focusing on Vitthala Temple
+python /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode generate_images --qa_source file --qa_input_file hampi_output/Hampi_Architecture_QA.txt --num_images 2 --monuments "Vitthala Temple" --output_dir hampi_output
+
+# Generate 4 views for a specific image generated previously
+# (Replace with an actual image path from hampi_output)
+python /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode generate_views --input_image hampi_output/realistic_photo_of_historical_0.png --num_views 4 --output_dir hampi_output
+
+# Run the full pipeline: generate 5 Q&A, generate 1 image each, generate 3 views for one image
+python /Users/siri/Desktop/pes/sem6/GENAI/project/3D-Reconstruction-of-Monuments/incorporated.py --mode full_pipeline --num_questions 5 --num_images 1 --num_views 3 --output_dir hampi_output
