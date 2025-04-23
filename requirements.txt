@@ -1,7 +1,47 @@
-pip install bs4 
-pip install requests
-pip install sentence_transformers
-pip install numpy
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install  langchain-groq
-pip install langchain langchain-community chromadb groq tiktoken
+# Core Libraries
+bs4
+requests
+sentence_transformers
+numpy
+
+# PyTorch with CUDA 12.4 support(change the cuda version if needed)
+torch --index-url https://download.pytorch.org/whl/cu124
+torchvision --index-url https://download.pytorch.org/whl/cu124
+torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+# LangChain and related packages
+langchain-groq
+langchain
+langchain-community
+chromadb
+groq
+tiktoken
+
+# Image Processing and Augmentation
+albumentations==1.3.0
+opencv-python==4.8.0.76
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
+kornia==0.7.0
+
+# Deep Learning Utilities
+pytorch-lightning==2.0.0
+omegaconf==2.3.0
+test-tube==0.7.5
+einops==0.6.0
+torchmetrics==0.11.4
+fire==0.5.0
+
+# Model and Pipeline Tools
+transformers==4.37.0
+diffusers==0.24.0
+datasets[vision]==2.14.5
+carvekit-colab==4.1.0
+
+# Visualization and Interface
+gradio==3.41.2
+streamlit==1.25.0
+plotly==5.13.1
+rich==13.5.2
+lovely-numpy==0.2.8
+lovely-tensors==0.1.14
