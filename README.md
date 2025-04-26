@@ -14,7 +14,7 @@ This project focuses on **reconstructing the lost architectural marvels of Hampi
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/3D-Reconstruction-of-Monuments.git
+   git clone https://github.com/Sameerbeedi/3D-Reconstruction-of-Monuments.git
    cd 3D-Reconstruction-of-Monuments
 
 ---
