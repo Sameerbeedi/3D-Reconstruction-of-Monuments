@@ -1,5 +1,3 @@
-# 3D-Reconstruction-of-Monuments
-=======
 # 🏛️ 3D Reconstruction of Lost Hampi Monuments  
 _Rebuilding the past with the power of AI_
 
